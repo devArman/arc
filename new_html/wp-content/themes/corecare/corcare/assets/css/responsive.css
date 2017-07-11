@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1200px){
+    .slick-center .text_block{
+        margin-left: -95px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .site-branding:after{
+        content: " ";
+    }
+    .top_slider_text {
+        right: 10px;
+        top: 10px;
+    }
+    .container .patient_care h3{
+        font-size: 17px;
+    }
+    .container .patient_care .blocks{
+        margin-bottom: 15px;
+        min-height: 160px;
+    }
+    .block-our, .box-tips{
+        width: 32.9%;
+        padding: 0 10px;
+    }
+    .slick-center .text_block{
+        margin-left: -65px;
+    }
+    footer  li.widget{
+        width: 50%!important;
+        margin-bottom: 0;
+    }
+
+}
+@media only screen and (max-width: 910px){
+    .site-footer .main-navigation {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 1170px) {
+    .wrapper, .block-all, .block-our-services {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .top_slider_text p {
+       display: none;
+    }
+    .top_slider_text h2{
+        font-size: 24px;
+    }
+    .block-our, .box-tips{
+        width: 32.7%;
+    }
+    .slick-center .text_block{
+        margin-left: -75px;
+    }
+    .top_slider_text .lilac_btn_default{
+        font-size: 10px;
+    }
+    .section_title{
+        font-size: 27px;
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width: 678px) {
+    .block-health p {
+        display: none;
+    }
+    .box-read {
+        width: 100%;
+    }
+    .block-health h3 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .patient_care_center{
+        display: none;
+    }
+    .container .patient_care .blocks{
+        width: 48.5%;
+    }
+    .box-circle-img{
+        width: 30px;
+        height: 30px;
+        bottom: -17px;
+    }
+    .box-circle-img img{
+        max-width: 17px;
+    }
+    .block-our h3, .block-news-text h3{
+        padding-top: 0;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .block-news-text p,.block-our-text p{
+        display: none;
+    }
+    .box-our{
+      height: 80px;
+    }
+    .box-tips-img{
+        height: 100px;
+    }
+    .slick-center .text_block{
+        margin-left: -40px;
+        min-width: 200px;
+    }
+    .our_doctors_block{
+        width: 70px;
+        height: 70px;
+    }
+    .add_item span{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .our_doctors_block{
+        border-width: 5px;
+    }
+    .add_item:before {
+        border: 17px solid #e8e6cd;
+        left: -4px;
+        top: -5px;
+    }
+    .block-our, .box-tips{
+        padding: 0 5px;
+        width: 32%;
+    }
+    footer  li.widget{
+        width: 100%!important;
+        margin-bottom: 0;
+        text-align: center;
+        padding: 0;
+    }
+    footer  li.widget:nth-child(2){
+        min-height: inherit;
+    }
+    footer  li.widget:first-child:after{
+        border-right: none;
+    }
+    footer  li.widget:nth-child(5){
+        margin-top: 15px;
+    }
+    footer  li.widget:nth-child(5) ul{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .top_slider_text h2{
+       margin-top: 0;
+    }
+}

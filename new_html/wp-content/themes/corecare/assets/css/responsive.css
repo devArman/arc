@@ -1,0 +1,495 @@
+
+@media screen and (max-width: 1170px) {
+    .block-all, .block-our-services {
+        width: 100%;
+    }
+    footer  li.widget:nth-child(3){
+        padding-left: 3%;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .site-branding:after{
+        content: " ";
+    }
+    .top_slider_text {
+        right: 10px;
+        top: 10px;
+    }
+    .container .patient_care h3{
+        font-size: 17px;
+    }
+    .container .patient_care .blocks{
+        margin-bottom: 15px;
+        min-height: 160px;
+    }
+    .block-our, .box-tips{
+        width: 32.9%;
+        padding: 0 10px;
+    }
+
+    footer  li.widget{
+        width: 50%!important;
+        margin-bottom: 0;
+    }
+    footer  li.widget:nth-child(3){
+        padding-left: 15px;
+    }
+    header .main-navigation a{
+        padding: 10px;
+    }
+    .test_block {
+        width: 32.8%;
+        padding: 0 3px;
+    }
+    .block-health p{
+        padding: 0 20px;
+    }
+
+}
+@media only screen and (max-width: 910px){
+    .site-footer .main-navigation {
+        display: none;
+    }
+    .site-branding{
+        display: none;
+    }
+    .site-header{
+        position: relative;
+    }
+    header .top_header{
+        padding: 10px 0;
+    }
+    header .menu-toggle{
+        position: absolute;
+        top: -3px;
+        border: 0;
+        padding: 0;
+        font-size: 32px;
+        margin: 5px 0;
+        color: #989570;
+    }
+    .menu-toggle.toggled-on,.menu-toggle.toggled-on:hover, .menu-toggle.toggled-on:focus,.menu-toggle:focus{
+        background-color: transparent;
+        color: #989570!important;
+    }
+    .site-header-menu{
+        position: absolute;
+        width: 100%;
+        top: 41px;
+        z-index: 5;
+        background: #989570;
+        left: 0;
+
+    }
+    .site-header-menu li a{
+        color: #e8e6cd;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    .site-header-menu li{
+        border-top: 0;
+    }
+    .menu-toggle.toggled-on:focus{
+        outline: none!important;
+    }
+    .top_header .desktop_top_header{
+        display: none;
+    }
+    .top_header  .mobile_top_header{
+        display: inline-block;
+        margin-left: 45px;
+    }
+    .top_header  .mobile_top_header li{
+        padding: 0 15px;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+    }
+    .top_header  .mobile_top_header li:before{
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: -10px;
+        bottom: -16px;
+        border-left: 2px solid #fff;
+    }
+    .top_header  .mobile_top_header li span{
+        cursor: pointer;
+    }
+    .mobile_top_header .search_item{
+        color: #e8e6cd;
+        font-size: 14px;
+        display: inline-block;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #989570;
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .top_slider_text p {
+       display: none;
+    }
+    .top_slider_text h2{
+        font-size: 24px;
+    }
+    .block-our, .box-tips{
+        width: 32.7%;
+    }
+    .slick-center .text_block{
+        margin-left: -75px;
+    }
+    .top_slider_text .lilac_btn_default{
+        font-size: 10px;
+    }
+    .section_title{
+        font-size: 27px;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    .lilac_btn_default{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .section_title:after{
+       bottom: -40px;
+    }
+    .box-text-img{
+        width: 50%;
+    }
+    .box-text-img iframe{
+        height: inherit;
+    }
+    .news_left_part{
+        padding: 0 15px;
+    }
+    .upcoming_events{
+        width: 100%;
+        float: left;
+    }
+    .careers_info{
+        margin-left: 0;
+    }
+    .patient_experience_content h3{
+        margin-top: 20px;
+    }
+    .default_page_template {
+        margin-top: 20px;
+    }
+    .block_with_border {
+        padding: 10px 0;
+    }
+    .comments_part input[type=submit]{
+        font-size: 12px;
+    }
+    #commentform input[type=text], #commentform textarea{
+        font-size: 12px;
+    }
+    .about-us-text{
+        padding: 10px;
+    }
+    .block-all-about{
+        text-align: center;
+    }
+    .today_events_list h3{
+        font-size: 16px;
+    }
+    .calendar_box th.dow{
+        font-size: 15px;
+    }
+    .test_block .scan{
+        padding: 20px 15px;
+    }
+    .test_block h2{
+        font-size: 16px;
+    }
+    .referrals_part ul{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 700px){
+    .calendar_box{
+        width: 100%;
+        max-width: 330px;
+        margin: 0 auto;
+        border: none;
+    }
+    .calendar_box .events_part, .calendar_box .date_picker_part{
+        width: 100%;
+        border: 2px solid #e8dee2;
+        padding: 15px;
+    }
+    .calendar_box .datepicker .prev{
+        left: 15px;
+    }
+    .calendar_box .events_part:after{
+        min-height: inherit;
+        bottom: 0;
+    }
+    .calendar_box:after{
+        background-image: none;
+    }
+    .calendar_box .events_part:after{
+        background-image: none;
+    }
+    .calendar_box .events_part:before{
+        content: " ";
+        background-image: url(../images/right-shadow.png);
+        position: absolute;
+        bottom: 0;
+        width: 51px;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+    }
+    .calendar_box .datepicker .datepicker-switch:after{
+        min-width: 200px;
+    }
+    .video_details_content.video_top_part iframe{
+        width: inherit;
+        height: inherit;
+        margin: 0 auto;
+        display: block;
+    }
+    .text_main_content{
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .block-health p {
+        display: none;
+    }
+    .box-read {
+        width: 100%;
+    }
+    .block-health h3 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .patient_care_center{
+        display: none;
+    }
+    .container .patient_care .blocks{
+        width: 48.5%;
+    }
+    .box-circle-img{
+        width: 30px;
+        height: 30px;
+        bottom: -17px;
+    }
+    .box-circle-img img{
+        max-width: 17px;
+    }
+    .block-our h3, .block-news-text h3{
+        padding-top: 0;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .block-news-text p,.block-our-text p{
+        display: none;
+    }
+    .box-our{
+      height: 80px;
+    }
+    .box-tips-img{
+        height: 100px;
+    }
+    .slick-center .text_block{
+        width: 200px;
+        position: relative;
+        left: 50%;
+       margin-left: -100px;
+    }
+    .our_doctors_block{
+        width: 70px;
+        height: 70px;
+    }
+    .add_item span{
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .our_doctors_block{
+        border-width: 5px;
+    }
+    .add_item:before {
+        border: 17px solid #e8e6cd;
+        left: -4px;
+        top: -5px;
+    }
+    .block-our, .box-tips{
+        padding: 0 5px;
+        width: 32%;
+    }
+
+    .bg-image{
+        width: 90px;
+        height: 90px;
+    }
+    .block_with_shadow{
+        padding-bottom: 0;
+    }
+    .block_with_shadow:after{
+        background-image: none;
+    }
+    .block-our-text{
+        padding: 20px 10px 10px 10px;
+    }
+    .block-our {
+        padding: 0;
+        width: 31%;
+        min-height: 180px;
+        background-color: #efefef;
+        margin: 0 0.5% 10px;
+    }
+    .container .patient_care .blocks{
+        padding: 20px 10px 55px 10px;
+    }
+    /*footer  li.widget:nth-child(2),footer  li.widget:first-child{*/
+        /*width: inherit!important;*/
+    /*}*/
+    footer  li.widget:nth-child(4),footer  li.widget:nth-child(3),footer  li.widget:nth-child(5){
+        width: 100%!important;
+    }
+    footer .footer_contact{
+        margin: 0 auto;
+    }
+    footer .newsletter_content{
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    footer.site-footer{
+        padding-top: 200px!important;
+        position: relative;
+    }
+    footer  li.widget:nth-child(3){
+        position: absolute;
+        top: 27px;
+        left: 0;
+    }
+    footer  li.widget:nth-child(5){
+        position: absolute;
+        left: 0;
+        top: 174px;
+    }
+    footer.site-footer .footer_contact{
+        max-width: 250px;
+    }
+    .page_top_banner .banner_text_block{
+        margin-right: 0;
+    }
+    .block-mini-four{
+        padding: 15px;
+    }
+    .page_top_banner .banner_text_block h2{
+        font-size: 30px;
+    }
+    .block-mini-four h3{
+        font-size: 15px;
+    }
+    .test_block{
+        width: 49%;
+    }
+    .doctor_image_part{
+        width: 200px;
+    }
+    .about_doctor_part{
+        width: calc(100% - 200px);
+    }
+    .about_doctor_part .doctor_name{
+        font-size: 30px;
+    }
+    .doctor_image_part .profile_image {
+        width: 150px;
+        height: 150px;
+        border: 8px solid #e8e6cd;
+    }
+    .OurDoctors  .doctor_info_box{
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .OurDoctors .doctor_info_box a i {
+        font-size: 28px;
+    }
+    .OurDoctors .view_profile_icon{
+        top: -26px;
+    }
+    .scroll_to_top{
+        right: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .block-mini-four{
+        width: 98%;
+        min-height: inherit;
+    }
+    .box-circle-out{
+        display: none;
+    }
+    .container .patient_care .blocks .lilac_btn_default{
+        min-width: 110px;
+    }
+    .OurDoctors   .bg_img{
+        padding-top: 100%;
+    }
+    .news_left_part,.news_right_part{
+        width: 100%;
+    }
+    .news_right_part .videos_section .video_block{
+        width: 46%;
+        float: left;
+        margin: 5px;
+    }
+    .subscribe_form{
+        margin: 15px auto 0;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .doctor_image_part,.about_doctor_part{
+        width: 100%;
+        padding-left: 0;
+    }
+    .event_right_block{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .event_left_block{
+        float: none;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 485px) {
+    .top_slider_text h2{
+       margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .top_header  .mobile_top_header li img{
+        max-width: 120px;
+    }
+
+}
+@media screen and (max-width: 350px){
+    .container .patient_care h3 {
+        font-size: 15px;
+    }
+    header .menu-toggle {
+        font-size: 24px;
+        left: 10px;
+    }
+    .top_header .mobile_top_header {
+        display: inline-block;
+        margin-left: 30px;
+    }
+}
